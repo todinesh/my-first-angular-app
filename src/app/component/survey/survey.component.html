@@ -1,0 +1,12 @@
+<mat-card><mat-card-title><h1>Survey</h1></mat-card-title></mat-card>
+<mat-card>
+<div class="app">
+    <dynamic-form
+      [config]="config"
+      #form="dynamicForm"
+      (submit)="submit($event)">
+    </dynamic-form>
+    {{ form.valid }}
+    {{ form.value | json }}
+  </div>
+</mat-card>

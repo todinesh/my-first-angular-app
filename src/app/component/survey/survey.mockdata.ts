@@ -1,0 +1,1 @@
+export const SurveyMockData = {"Q1":"Yes", "Q2":"No"}
